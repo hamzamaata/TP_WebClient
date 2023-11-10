@@ -26,6 +26,9 @@ Gère les opérations liées aux filières, telles que la récupération de la l
 Exposition en tant que services web :
 
 Les services EJB peuvent être exposés en tant que services web, facilitant l'intégration avec d'autres applications.
+
+
+
 2. Projet Client Java (Nom du Projet: clientG4)
 
 Le projet clientG4 constitue l'interface Java permettant d'interagir avec le serveur EJB. Ce client est responsable d'invoquer les services exposés par le serveur et de traiter les résultats.
