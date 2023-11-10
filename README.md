@@ -1,7 +1,7 @@
-# TP_WebClients
+# TP_Clients
 Description des Projets
 
-1. Projet EJB (Entreprise JavaBeans) - Serveur d'Application (Nom du Projet: EJBTP3)
+# 1. Projet EJB (Entreprise JavaBeans) - Serveur d'Application (Nom du Projet: EJBTP3)
 
 
 Entités :
@@ -37,7 +37,7 @@ Les services EJB peuvent être exposés en tant que services web, facilitant l'i
 
 
 
-2. Projet Client Java (Nom du Projet: clientG4)
+# 2. Projet Client Java (Nom du Projet: clientG4)
 
 Le projet clientG4 constitue l'interface Java permettant d'interagir avec le serveur EJB. Ce client est responsable d'invoquer les services exposés par le serveur et de traiter les résultats.
 
@@ -56,7 +56,7 @@ Utilise le contexte JNDI pour localiser et invoquer les services EJB du serveur.
 Facilite les tests unitaires pour s'assurer du bon fonctionnement des services.
 
 
-3. Projet Client Web (Nom du Projet: clientWebG4)
+# 3. Projet Client Web (Nom du Projet: clientWebG4)
 
 Le projet clientWebG4 sert d'interface utilisateur basée sur le web, offrant une expérience conviviale pour interagir avec les services exposés par le serveur EJB. Cette application web est développée en utilisant des technologies Java EE, notamment JSP (JavaServer Pages) et des servlets, assurant une communication efficace avec le serveur.
 
