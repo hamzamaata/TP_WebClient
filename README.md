@@ -13,9 +13,11 @@ Représente les informations d'un étudiant, telles que son prénom, nom, numér
 User (Utilisateur) :
 
 Stocke les informations d'authentification, avec des champs tels que le login, le mot de passe, et des relations avec un étudiant et un rôle.
+
 Role (Rôle) :
 
 Définit le rôle d'un utilisateur dans le système, lié à un utilisateur.
+
 Filiere (Filière) :
 
 Représente une filière académique avec un code, un nom, et une relation avec une liste d'étudiants.
@@ -25,12 +27,15 @@ Services EJB :
 StudentService :
 
 Gère les opérations liées aux étudiants, telles que la récupération de la liste des étudiants.
+
 RoleService :
 
 Gère les opérations liées aux rôles, telles que la récupération de la liste des rôles.
+
 FiliereService :
 
 Gère les opérations liées aux filières, telles que la récupération de la liste des filières.
+
 Exposition en tant que services web :
 
 Les services EJB peuvent être exposés en tant que services web, facilitant l'intégration avec d'autres applications.
