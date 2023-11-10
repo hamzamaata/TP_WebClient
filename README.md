@@ -7,21 +7,29 @@ Description des Projets
 Entités :
 
 Student (Étudiant) :
+
 Représente les informations d'un étudiant, telles que son prénom, nom, numéro de téléphone, et une relation avec un utilisateur.
+
 User (Utilisateur) :
+
 Stocke les informations d'authentification, avec des champs tels que le login, le mot de passe, et des relations avec un étudiant et un rôle.
 Role (Rôle) :
+
 Définit le rôle d'un utilisateur dans le système, lié à un utilisateur.
 Filiere (Filière) :
+
 Représente une filière académique avec un code, un nom, et une relation avec une liste d'étudiants.
 
 Services EJB :
 
 StudentService :
+
 Gère les opérations liées aux étudiants, telles que la récupération de la liste des étudiants.
 RoleService :
+
 Gère les opérations liées aux rôles, telles que la récupération de la liste des rôles.
 FiliereService :
+
 Gère les opérations liées aux filières, telles que la récupération de la liste des filières.
 Exposition en tant que services web :
 
@@ -36,6 +44,7 @@ Le projet clientG4 constitue l'interface Java permettant d'interagir avec le ser
 Classes de Test :
 
 TestStudent :
+
 Inclut des tests pour vérifier les opérations du service StudentService.
 TestRole :
 Contient des tests pour valider les opérations du service RoleService.
