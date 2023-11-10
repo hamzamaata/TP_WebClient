@@ -46,13 +46,19 @@ Classes de Test :
 TestStudent :
 
 Inclut des tests pour vérifier les opérations du service StudentService.
+
 TestRole :
+
 Contient des tests pour valider les opérations du service RoleService.
+
 TestFiliere :
+
 Comprend des tests pour assurer le bon fonctionnement du service FiliereService.
+
 Interaction avec le Serveur :
 
 Utilise le contexte JNDI pour localiser et invoquer les services EJB du serveur.
+
 Facilite les tests unitaires pour s'assurer du bon fonctionnement des services.
 
 
@@ -63,19 +69,29 @@ Le projet clientWebG4 sert d'interface utilisateur basée sur le web, offrant un
 Pages JSP :
 
 role.jsp :
+
 Cette page affiche la liste des rôles récupérée à partir du serveur en utilisant des balises JSTL (JavaServer Pages Standard Tag Library).
+
 filiere.jsp :
+
 Présente la liste des filières, également récupérée depuis le serveur et affichée de manière dynamique dans un tableau HTML.
+
 student.jsp :
+
 Affiche la liste des étudiants avec leurs détails, obtenus à partir des services exposés par le serveur EJB.
+
 Servlets correspondantes pour récupérer les données :
 
 RoleServlet :
+
 Agit en tant que contrôleur pour récupérer les données du service RoleService sur le serveur et les transmet à la page role.jsp.
 FiliereServlet :
+
 Gère la récupération des données de FiliereService et les transmet à la page filiere.jsp.
 StudentServlet :
+
 Récupère les informations d'étudiants en utilisant le service StudentService et les présente dans la page student.jsp.
+
 Communication avec le Serveur EJB :
 
 Utilise les mécanismes JNDI pour localiser les services EJB sur le serveur.
